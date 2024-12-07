@@ -23,7 +23,6 @@ export default function TimeAxis() {
     $app.config.locale.value,
     $app.config.weekOptions.value.timeAxisFormatOptions
   )
-
   return (
     <>
       <div className="sx__week-grid__time-axis">

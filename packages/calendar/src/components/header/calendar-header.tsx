@@ -1,7 +1,7 @@
-import AppWrapper from '@schedule-x/date-picker/src/components/app-wrapper'
+// import AppWrapper from '@schedule-x/date-picker/src/components/app-wrapper'
 import { useContext, useEffect, useState } from 'preact/hooks'
 import { AppContext } from '../../utils/stateful/app-context'
-import DatePickerAppSingletonBuilder from '@schedule-x/shared/src/utils/stateful/date-picker/app-singleton/date-picker-app-singleton.builder'
+// import DatePickerAppSingletonBuilder from '@schedule-x/shared/src/utils/stateful/date-picker/app-singleton/date-picker-app-singleton.builder'
 import RangeHeading from './range-heading'
 import TodayButton from './today-button'
 import ViewSelection from './view-selection'
@@ -12,12 +12,12 @@ import { getElementByCCID } from '../../utils/stateless/dom/getters'
 export default function CalendarHeader() {
   const $app = useContext(AppContext)
 
-  const datePickerAppSingleton = new DatePickerAppSingletonBuilder()
-    .withDatePickerState($app.datePickerState)
-    .withConfig($app.datePickerConfig)
-    .withTranslate($app.translate)
-    .withTimeUnitsImpl($app.timeUnitsImpl)
-    .build()
+  // const datePickerAppSingleton = new DatePickerAppSingletonBuilder()
+  //   .withDatePickerState($app.datePickerState)
+  //   .withConfig($app.datePickerConfig)
+  //   .withTranslate($app.translate)
+  //   .withTimeUnitsImpl($app.timeUnitsImpl)
+  //   .build()
 
   const headerContent = $app.config._customComponentFns.headerContent
   const headerContentId = useState(
@@ -75,12 +75,11 @@ export default function CalendarHeader() {
             {headerContentLeftPrependId && (
               <div data-ccid={headerContentLeftPrependId} />
             )}
+            <RangeHeading />
 
             <TodayButton />
 
             <ForwardBackwardNavigation />
-
-            <RangeHeading />
 
             {headerContentLeftAppendId && (
               <div data-ccid={headerContentLeftAppendId} />
@@ -98,7 +97,7 @@ export default function CalendarHeader() {
               />
             )}
 
-            <AppWrapper $app={datePickerAppSingleton}></AppWrapper>
+            {/* <AppWrapper $app={datePickerAppSingleton}></AppWrapper> */}
 
             {headerContentRightAppendId && (
               <div data-ccid={headerContentRightAppendId} />

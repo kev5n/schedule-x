@@ -60,3 +60,9 @@ export {
   createViewDay,
   createViewMonthAgenda,
 }
+
+export { createResizePlugin } from '../../resize/src'
+export { createDragAndDropPlugin } from '../../drag-and-drop/src'
+export { createEventsServicePlugin } from '../../events-service/src'
+export { createEventModalPlugin } from '../../event-modal/src'
+export { createScrollControllerPlugin } from '../../scroll-controller/src'

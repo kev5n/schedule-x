@@ -1,8 +1,20 @@
 .sx__today-button {
-  padding: var(--sx-spacing-padding3) var(--sx-spacing-padding4);
-  border-radius: var(--sx-rounding-extra-small);
   font-size: var(--sx-calendar-header-input-font-size);
   color: var(--sx-internal-color-text);
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 55px;
+  height: 31px;
+  background: #fff;
+  border: 0.5px solid #a1a1aa;
+  border-radius: 6px;
 
   &:active {
     background-color: var(--sx-internal-color-gray-ripple-background);

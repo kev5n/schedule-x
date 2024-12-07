@@ -1,5 +1,5 @@
 .sx__week-grid__date-axis {
-  padding-left: var(--sx-calendar-week-grid-padding-left);
+  padding-left: 0;
   display: flex;
 }
 
@@ -9,13 +9,16 @@
   flex-flow: column;
   align-items: center;
   padding: var(--sx-spacing-padding3) 0;
-  gap: var(--sx-spacing-padding1);
+  background: rgba(247, 247, 247, 61%);
+  box-shadow:
+    inset 1px 0 0 rgba(203, 203, 203, 24%),
+    inset 0 -1px 0 rgba(203, 203, 203, 24%);
 }
 
 .sx__week-grid__day-name {
   text-transform: uppercase;
   font-size: var(--sx-font-extra-small);
-  color: var(--sx-color-neutral);
+  color: #646464;
   font-weight: 500;
 
   .sx__week-grid__date--is-today & {
@@ -30,13 +33,27 @@
   justify-content: center;
   font-size: var(--sx-font-extra-large);
   font-weight: 500;
-  color: var(--sx-color-neutral);
-  height: 2em;
-  width: 2em;
+  color: #000;
+  width: 1em;
+  margin-bottom: 2px;
 
   .sx__week-grid__date--is-today & {
     background-color: var(--sx-color-primary);
     color: var(--sx-color-on-primary);
     border-radius: 50%;
   }
+}
+
+.sx__week-grid__time-zone {
+  width: 75px;
+  text-transform: uppercase;
+  font-size: var(--sx-font-extra-small);
+  color: #646464;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 25px;
+  background: rgba(247, 247, 247, 61%);
+  box-shadow:
+    inset 1px 0 0 rgba(203, 203, 203, 24%),
+    inset 0 -1px 0 rgba(203, 203, 203, 24%);
 }

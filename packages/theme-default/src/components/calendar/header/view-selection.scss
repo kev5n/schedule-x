@@ -3,6 +3,39 @@
   font-size: var(--sx-calendar-header-input-font-size);
 }
 
+.sx__view-selection-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 4px;
+  gap: 12px;
+  background: #fff;
+  border: 0.5px solid rgba(161, 161, 170, 27%);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.sx__view-selection-tab-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 56px;
+  height: 28px;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sx__view-selection-tab-item-active {
+  background: #9165ff;
+  color: white;
+}
+
 .sx__view-selection-selected-item {
   height: 100%;
   width: fit-content;

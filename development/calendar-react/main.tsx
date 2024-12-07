@@ -10,23 +10,7 @@ import {
 } from '@schedule-x/calendar/src'
 import '../../packages/theme-default/src/calendar.scss'
 import '../app.css'
-import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop/src'
-import { createEventModalPlugin } from '@schedule-x/event-modal/src'
-import { seededEvents } from '../data/seeded-events.ts'
-import { createScrollControllerPlugin } from '@schedule-x/scroll-controller/src'
-import { createResizePlugin } from '../../packages/resize/src'
-import {
-  // createEventRecurrencePlugin,
-  createEventsServicePlugin,
-} from '@schedule-x/event-recurrence/src'
-import { createCalendarControlsPlugin } from '../../packages/calendar-controls/src'
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
-import { createCurrentTimePlugin } from '../../packages/current-time/src/current-time-plugin.impl.ts'
-import { createViewMonthGrid } from '@schedule-x/calendar/src/views/month-grid'
-import { createViewWeek } from '@schedule-x/calendar/src/views/week'
-import { createViewDay } from '@schedule-x/calendar/src/views/day'
-import { createViewMonthAgenda } from '@schedule-x/calendar/src/views/month-agenda'
-import {WeekDay} from "@schedule-x/shared/src/enums/time/week-day.enum.ts";
+import {} from "../../packages/calendar";
 
 const calendarElement = document.getElementById('calendar') as HTMLElement
 
@@ -330,7 +314,7 @@ const calendar = createCalendar({
   createEventsServicePlugin(),
   createCurrentTimePlugin(),
   createEventModalPlugin(),
-  // createEventRecurrencePlugin(),
+  createEventRecurrencePlugin(),
   createResizePlugin(),
 ])
 calendar.render(calendarElement)
