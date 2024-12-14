@@ -7,7 +7,7 @@ import '@fontsource/open-sans/700-italic.css'
 import '@fontsource/roboto-condensed'
 import {
   createCalendar,
-} from '@schedule-x/calendar/src'
+} from 'trinity-calendar/src'
 import '../../packages/theme-default/src/calendar.scss'
 import '../app.css'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop/src'
@@ -22,10 +22,10 @@ import {
 import { createCalendarControlsPlugin } from '../../packages/calendar-controls/src'
 import { CalendarAppSingleton } from '@schedule-x/shared/src'
 import { createCurrentTimePlugin } from '../../packages/current-time/src/current-time-plugin.impl.ts'
-import { createViewMonthGrid } from '@schedule-x/calendar/src/views/month-grid'
-import { createViewWeek } from '@schedule-x/calendar/src/views/week'
-import { createViewDay } from '@schedule-x/calendar/src/views/day'
-import { createViewMonthAgenda } from '@schedule-x/calendar/src/views/month-agenda'
+import { createViewMonthGrid } from 'trinity-calendar/src/views/month-grid'
+import { createViewWeek } from 'trinity-calendar/src/views/week'
+import { createViewDay } from 'trinity-calendar/src/views/day'
+import { createViewMonthAgenda } from 'trinity-calendar/src/views/month-agenda'
 import {WeekDay} from "@schedule-x/shared/src/enums/time/week-day.enum.ts";
 
 const calendarElement = document.getElementById('calendar') as HTMLElement

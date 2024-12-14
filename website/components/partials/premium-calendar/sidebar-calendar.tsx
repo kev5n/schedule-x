@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { viewDay, viewMonthAgenda, viewMonthGrid, viewWeek } from '@schedule-x/calendar'
+import { viewDay, viewMonthAgenda, viewMonthGrid, viewWeek } from 'trinity-calendar'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop'
 import { ScheduleXCalendar, useNextCalendarApp } from '@schedule-x/react/dist/index'
 import { calendars } from './data/calendars'

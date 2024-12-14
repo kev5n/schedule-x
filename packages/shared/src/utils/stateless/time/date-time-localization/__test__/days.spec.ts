@@ -10,7 +10,7 @@ import {
   getOneLetterDayNames,
 } from '../date-time-localization'
 import { Month } from '../../../../../enums/time/month.enum'
-import { createBaseConfig } from '@schedule-x/calendar/src/__test__/utils'
+import { createBaseConfig } from 'trinity-calendar/src/__test__/utils'
 
 describe('get localized day names', () => {
   const timeUnitsImpl = new TimeUnitsBuilder()

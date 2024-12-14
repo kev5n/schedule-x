@@ -16,13 +16,13 @@ import { Tabs } from 'nextra/components'
 <Tabs items={['npm', 'pnpm/yarn']}>
   <Tabs.Tab>
     ```bash copy
-      npm install @schedule-x/angular @schedule-x/calendar @schedule-x/theme-default
+      npm install @schedule-x/angular trinity-calendar @schedule-x/theme-default
     ```
   </Tabs.Tab>
 
   <Tabs.Tab>
     ```bash copy
-      pnpm install @schedule-x/angular @schedule-x/calendar @schedule-x/theme-default @preact/signals preact
+      pnpm install @schedule-x/angular trinity-calendar @schedule-x/theme-default @preact/signals preact
     ```
   </Tabs.Tab>
 </Tabs>
@@ -36,7 +36,7 @@ import { Tabs } from 'nextra/components'
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CalendarComponent } from "@schedule-x/angular";
-import { createCalendar, createViewWeek } from "@schedule-x/calendar";
+import { createCalendar, createViewWeek } from "trinity-calendar";
 import '@schedule-x/theme-default/dist/index.css' // can alternatively be added in your angular.json
 
 @Component({

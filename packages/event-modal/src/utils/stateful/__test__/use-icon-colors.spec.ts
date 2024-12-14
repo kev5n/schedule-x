@@ -4,7 +4,7 @@ import {
   expect,
 } from '@schedule-x/shared/src/utils/stateless/testing/unit/unit-testing-library.impl'
 import { useIconColors } from '../use-icon-colors'
-import { __createAppWithViews__ } from '@schedule-x/calendar/src/utils/stateless/testing/__create-app-with-views__'
+import { __createAppWithViews__ } from 'trinity-calendar/src/utils/stateless/testing/__create-app-with-views__'
 
 const LIGHT_MODE_COLOR = '#000'
 const DARK_MODE_COLOR = 'var(--sx-color-neutral-variant)'

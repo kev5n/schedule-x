@@ -9,7 +9,7 @@ import TimeAxis from '../time-axis'
 import { AppContext } from '../../../utils/stateful/app-context'
 import CalendarAppSingleton from '@schedule-x/shared/src/interfaces/calendar/calendar-app-singleton'
 import { __createAppWithViews__ } from '../../../utils/stateless/testing/__create-app-with-views__'
-import { createCalendarControlsPlugin } from '@schedule-x/calendar-controls/src'
+import { createCalendarControlsPlugin } from 'trinity-calendar-controls/src'
 
 const renderComponent = ($app: CalendarAppSingleton) => {
   render(

@@ -17,7 +17,7 @@ npm install @schedule-x/svelte @schedule-x/theme-default
 ```
 
 If you're using a package manager that does not automatically
-download peer dependencies, you will additionally need to install `@schedule-x/calendar`, `@preact/signals` and
+download peer dependencies, you will additionally need to install `trinity-calendar`, `@preact/signals` and
 `preact`. This is for example the case for **yarn** and **npm < v7**.
 
 ## Basic usage
@@ -31,7 +31,7 @@ download peer dependencies, you will additionally need to install `@schedule-x/c
 
 <script lang="ts">
 	import { ScheduleXCalendar } from '@schedule-x/svelte';
-	import { createCalendar, createViewDay, createViewWeek } from '@schedule-x/calendar';
+	import { createCalendar, createViewDay, createViewWeek } from 'trinity-calendar';
 	import '@schedule-x/theme-default/dist/index.css';
 
 	const calendarApp = createCalendar({
@@ -124,7 +124,7 @@ can be customized:
 
 <script lang="ts">
 	import { ScheduleXCalendar } from '@schedule-x/svelte';
-	import { createCalendar, createViewDay, createViewWeek } from '@schedule-x/calendar';
+	import { createCalendar, createViewDay, createViewWeek } from 'trinity-calendar';
 	import '@schedule-x/theme-default/dist/index.css';
 	import TimeGridEvent from '$lib/TimeGridEvent.svelte';
 

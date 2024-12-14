@@ -38,6 +38,7 @@ export type {
   WeekOptions,
   MonthGridOptions,
 }
+export type { PluginBase } from '../../shared/src'
 
 export {
   createCalendar,
@@ -66,3 +67,5 @@ export { createDragAndDropPlugin } from '../../drag-and-drop/src'
 export { createEventsServicePlugin } from '../../events-service/src'
 export { createEventModalPlugin } from '../../event-modal/src'
 export { createScrollControllerPlugin } from '../../scroll-controller/src'
+export { createDragToCreatePlugin } from '../../drag_to_create/index.js'
+export type { DragToCreatePlugin } from '../../drag_to_create/index.d.ts'

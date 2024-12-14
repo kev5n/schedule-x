@@ -10,12 +10,12 @@ import {
   viewMonthAgenda,
   viewMonthGrid,
   viewWeek,
-} from '@schedule-x/calendar'
+} from 'trinity-calendar'
 import '@schedule-x/theme-default/dist/index.css'
 import '../index.css'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop'
 import { createEventModalPlugin } from '@schedule-x/event-modal'
-import {createCalendarControlsPlugin} from "@schedule-x/calendar-controls";
+import {createCalendarControlsPlugin} from "trinity-calendar-controls";
 
 const calendarElement = document.getElementById('calendar') as HTMLElement
 

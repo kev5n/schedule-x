@@ -1,4 +1,4 @@
-import { viewDay, viewMonthAgenda, viewMonthGrid, viewWeek } from '@schedule-x/calendar'
+import { viewDay, viewMonthAgenda, viewMonthGrid, viewWeek } from 'trinity-calendar'
 import { seededEvents } from './data/seeded-events'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop'
 import { createEventModalPlugin } from '@schedule-x/event-modal'

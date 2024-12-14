@@ -1,13 +1,7 @@
 {
-  "name": "@schedule-x/calendar",
-  "umdName": "SXCalendar",
-  "version": "2.10.0",
-  "description": "Schedule-X calendar component",
-  "author": {
-    "name": "Tom Österlund",
-    "email": "tom@schedule-x.dev",
-    "url": "https://github.com/tomosterlund"
-  },
+  "name": "trinity-calendar",
+  "version": "2.14.0",
+  "description": "calendar component",
   "license": "MIT",
   "keywords": [
     "event calendar",
@@ -32,13 +26,7 @@
   },
   "peerDependencies": {
     "@preact/signals": "^1.1.5",
-    "preact": "^10.19.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/schedule-x/schedule-x",
-    "directory": "packages/calendar"
-  },
-  "homepage": "https://schedule-x.dev",
-  "gitHead": "0f6a8b9595049e7f9a52bc8bb1462e611c63556f"
+    "preact": "^10.19.2",
+    "react": "^18"
+  }
 }

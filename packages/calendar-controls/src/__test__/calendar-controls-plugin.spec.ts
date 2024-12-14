@@ -7,10 +7,10 @@ import {
 } from '@schedule-x/shared/src/utils/stateless/testing/unit/unit-testing-library.impl'
 
 import { createCalendarControlsPlugin } from '../calendar-controls-plugin.impl'
-import { __createAppWithViews__ } from '@schedule-x/calendar/src/utils/stateless/testing/__create-app-with-views__'
+import { __createAppWithViews__ } from 'trinity-calendar/src/utils/stateless/testing/__create-app-with-views__'
 import { InternalViewName } from '@schedule-x/shared/src/enums/calendar/internal-view.enum'
 import { WeekDay } from '@schedule-x/shared/src/enums/time/week-day.enum'
-import { viewDay, viewMonthGrid, viewWeek } from '@schedule-x/calendar/src'
+import { viewDay, viewMonthGrid, viewWeek } from 'trinity-calendar/src'
 import { DayBoundariesExternal } from '@schedule-x/shared/src/types/calendar/day-boundaries'
 import {
   CalendarType,

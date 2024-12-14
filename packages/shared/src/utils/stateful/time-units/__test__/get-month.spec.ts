@@ -7,7 +7,7 @@ import { WeekDay } from '../../../../enums/time/week-day.enum'
 import TimeUnitsBuilder from '../time-units.builder'
 import { Month } from '../../../../enums/time/month.enum'
 import { expectWeekDatesToBe } from './utils/time-units-impl.spec-utils'
-import { createBaseConfig } from '@schedule-x/calendar/src/__test__/utils'
+import { createBaseConfig } from 'trinity-calendar/src/__test__/utils'
 
 describe('get month', () => {
   it('should get month with trailing and leading days, for 2023-07', () => {

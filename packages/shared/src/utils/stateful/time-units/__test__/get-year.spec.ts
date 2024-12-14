@@ -6,7 +6,7 @@ import {
 import TimeUnitsBuilder from '../time-units.builder'
 import { Month } from '../../../../enums/time/month.enum'
 import { NoYearZeroError } from '../../../stateless/errors/no-year-zero.error'
-import { createBaseConfig } from '@schedule-x/calendar/src/__test__/utils'
+import { createBaseConfig } from 'trinity-calendar/src/__test__/utils'
 
 describe('get year', () => {
   it.each([[-100], [-1], [1], [2023], [2024], [5000]])(

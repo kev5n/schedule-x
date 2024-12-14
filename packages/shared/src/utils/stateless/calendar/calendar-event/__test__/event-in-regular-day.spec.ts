@@ -4,7 +4,7 @@ import {
   expect,
 } from '../../../testing/unit/unit-testing-library.impl'
 import CalendarEventBuilder from '../calendar-event.builder'
-import CalendarConfigBuilder from '@schedule-x/calendar/src/utils/stateful/config/calendar-config.builder'
+import CalendarConfigBuilder from 'trinity-calendar/src/utils/stateful/config/calendar-config.builder'
 
 describe('CalendarEventImpl', () => {
   describe('the event time type in a day with default day boundaries', () => {

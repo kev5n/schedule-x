@@ -9,7 +9,7 @@ import TimeUnitsBuilder from '@schedule-x/shared/src/utils/stateful/time-units/t
 import { Month } from '@schedule-x/shared/src/enums/time/month.enum'
 import { createAppSingleton } from '../../../factory'
 import { renderComponent } from './utils'
-import { createBaseConfig } from '@schedule-x/calendar/src/__test__/utils'
+import { createBaseConfig } from 'trinity-calendar/src/__test__/utils'
 
 describe('MonthViewWeek', () => {
   beforeEach(() => {

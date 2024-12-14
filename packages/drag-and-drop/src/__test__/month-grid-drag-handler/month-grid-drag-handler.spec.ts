@@ -7,7 +7,7 @@ import {
 } from '@schedule-x/shared/src/utils/stateless/testing/unit/unit-testing-library.impl'
 import { CalendarAppSingleton } from '@schedule-x/shared'
 import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
-import { __createAppWithViews__ } from '@schedule-x/calendar/src/utils/stateless/testing/__create-app-with-views__'
+import { __createAppWithViews__ } from 'trinity-calendar/src/utils/stateless/testing/__create-app-with-views__'
 import MonthGridDragHandlerImpl from '../../month-grid-drag-handler.impl'
 import { getEventWithId } from '../time-grid-drag-handler/utils'
 import { vi } from 'vitest'

@@ -1,4 +1,4 @@
-export const calendarDemoCode = `import { createCalendar, viewDay, viewMonthAgenda, viewMonthGrid, viewWeek } from '@schedule-x/calendar'
+export const calendarDemoCode = `import { createCalendar, viewDay, viewMonthAgenda, viewMonthGrid, viewWeek } from 'trinity-calendar'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop'
 import { createEventModalPlugin } from '@schedule-x/event-modal'
 import '@schedule-x/theme-default/dist/index.css'

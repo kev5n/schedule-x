@@ -5,7 +5,7 @@ import {
 } from '@schedule-x/shared/src/utils/stateless/testing/unit/unit-testing-library.impl'
 import CalendarEventExternal from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
 import { createEventRecurrencePlugin } from '../event-recurrence-plugin.impl'
-import { __createAppWithViews__ } from '@schedule-x/calendar/src/utils/stateless/testing/__create-app-with-views__'
+import { __createAppWithViews__ } from 'trinity-calendar/src/utils/stateless/testing/__create-app-with-views__'
 
 describe('Resize Recurrence', () => {
   describe('Updating a timed event', () => {

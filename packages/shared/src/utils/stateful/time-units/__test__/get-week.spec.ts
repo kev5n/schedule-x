@@ -6,7 +6,7 @@ import TimeUnitsBuilder from '../time-units.builder'
 import { Month } from '../../../../enums/time/month.enum'
 import { expectWeekDatesToBe } from './utils/time-units-impl.spec-utils'
 import { WeekDay } from '../../../../enums/time/week-day.enum'
-import { createBaseConfig } from '@schedule-x/calendar/src/__test__/utils'
+import { createBaseConfig } from 'trinity-calendar/src/__test__/utils'
 
 describe('get week', () => {
   it('should get week starting on Monday, for 2023-07-01', () => {

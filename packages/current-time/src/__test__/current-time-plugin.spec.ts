@@ -3,7 +3,7 @@ import {
   it,
   expect,
 } from '@schedule-x/shared/src/utils/stateless/testing/unit/unit-testing-library.impl'
-import { __createAppWithViews__ } from '@schedule-x/calendar/src/utils/stateless/testing/__create-app-with-views__'
+import { __createAppWithViews__ } from 'trinity-calendar/src/utils/stateless/testing/__create-app-with-views__'
 import { createCurrentTimePlugin } from '../current-time-plugin.impl'
 import { toDateString } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/date-to-strings'
 import { waitFor } from '@testing-library/preact'

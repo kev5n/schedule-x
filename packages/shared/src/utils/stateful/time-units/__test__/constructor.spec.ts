@@ -5,7 +5,7 @@ import {
 } from '../../../stateless/testing/unit/unit-testing-library.impl'
 import { WeekDay } from '../../../../enums/time/week-day.enum'
 import TimeUnitsBuilder from '../time-units.builder'
-import { createBaseConfig } from '@schedule-x/calendar/src/__test__/utils'
+import { createBaseConfig } from 'trinity-calendar/src/__test__/utils'
 
 describe('constructor', () => {
   it('should set first day of week', () => {

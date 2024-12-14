@@ -47,7 +47,7 @@ import {Cards} from 'nextra/components'
 We will start by downloading the calendar and its theme.
 
 ```bash copy
-npm i @schedule-x/calendar @schedule-x/theme-default
+npm i trinity-calendar @schedule-x/theme-default
 ```
 
 ## 2. Setup
@@ -61,7 +61,7 @@ After downloading and importing our dependencies, we can create an instance of t
 Here we will start by only adding the config. The calendar is then rendered using the `render` method.
 
 ```ts
-import { createCalendar, createViewMonthGrid } from '@schedule-x/calendar'
+import { createCalendar, createViewMonthGrid } from 'trinity-calendar'
 import '@schedule-x/theme-default/dist/index.css'
 
 const calendar = createCalendar({
@@ -135,7 +135,7 @@ For testing purposes, or if you're in a setup that predates modern build tools, 
   <script src="https://cdn.jsdelivr.net/npm/preact@10.23.2/jsx-runtime/dist/jsxRuntime.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/preact@10.23.2/compat/dist/compat.umd.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@schedule-x/calendar@2.2.0/dist/core.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/trinity-calendar@2.2.0/dist/core.umd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@schedule-x/drag-and-drop@2.2.0/dist/core.umd.js"></script>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@schedule-x/theme-default@2.2.0/dist/index.css">
